@@ -1,0 +1,222 @@
+body{
+    background-color: white;
+}
+
+.tarifsFirstPart{
+    max-width: 540px;
+   
+}
+
+.background2{
+    background-color: #f5f8ff;
+}
+
+header{
+    background-color: #f5f8ff;
+    margin-bottom: 0;
+}
+
+.titleTarif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 50px;
+
+}
+.titleTarif h2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #1b3c87;
+    font-weight: 900;
+    line-height: 1,2;
+    padding-top: 20px;
+
+}
+
+.cardsTarif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardTarif{
+    border: #f0f4fb solid 0.3px;
+    width: 20%;
+    border-radius: 15px;
+}
+.titleCardTarif{
+    display: flex;
+    flex-direction: column;
+    
+}
+.titleCardTarif p{
+    text-align: center;
+    padding: 5px 0;
+    margin: unset;
+    color: #1b3c87;
+
+}
+.titleCardTarif strong{
+    text-align: center;
+    color: #1b3c87;
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 25px;
+}
+
+.contentTarifs{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.cardsService{
+    display: flex;
+    padding: 0 10px;
+}
+
+.cardsService svg{
+    width: 30px;
+    fill: #46dbc9;
+}
+
+.cardsService p{
+    color: #1b3c87;
+    margin-left: 5px;
+}
+
+.SubTarif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.SubTarifPremium{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.SubTarif a{
+    padding: 10px;
+    border: #1b3c87 solid 2px;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: #1b3c87;
+    text-decoration: none;
+}
+
+.underlineService{
+    text-decoration: line-through;
+}
+
+.cardTarif{
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.SubTarifPremium a{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: #1b3c87;
+    text-decoration: none;
+    background-color: #46dbc9;
+    width: fit-content;
+}
+
+.scaleCard{
+    -webkit-transform: scale(1.15);
+    border: #46dbc9 2px solid;
+}
+.line3{
+    
+    background: #46dbc9;
+    width: 55px;
+    height: 7px;
+    margin-top: 50px;
+    margin: 42px auto 10px;
+    border-radius: 3px;
+
+}
+
+
+.textTarifs{
+    width: 100%;
+    display: flex;
+}
+
+.textTarifs{
+    display: flex;
+    flex-direction: column;
+
+}
+.textTarifs h2{
+    color: #1b3c87;
+    text-align: center;
+}
+
+.templateTextTarifs{
+    padding: 0 4rem;
+}
+.templateTextTarifs h2{
+    color:#1b3c87;
+    font-weight: 300;
+    text-align: start;
+}
+
+.templateTextTarifs p{
+    color:#1b3c87;
+    font-weight: normal;
+    border-left: solid #46dbc9 2px;
+    text-align: start;
+    padding:10px;
+    margin-left: 20px;
+}
+
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width:1023px) { 
+
+    .cardsTarif{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardTarif{
+        width: 80%;
+        margin: unset;
+        margin: 30px;
+    }
+    .scaleCard{
+        transform: scale(1);
+
+    }
+    .ResponsiveContent{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .titleCardTarif{
+        margin-bottom: 10px;
+    }
+    .titleTarif{
+        margin-bottom: unset;
+    }
+
+
+}
+
+@media screen and (max-width:582px) {
+.ResponsiveContent{
+    flex-direction: column;
+    align-items: center;
+}
+.titleTarif h2{
+    font-size: 18px;
+}
+}
+
